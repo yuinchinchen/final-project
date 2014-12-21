@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.yuinchinchen.example"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Test App</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author href="https://yuinchinchen.com" email="yuinchinchen@gmail.com">
+        Johnson Chen
+    </author>
+
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<gap:platform name="winphone" />
+
+<preference name="phonegap-version" value="3.5.0" />
+<preference name="fullscreen" value="true" />
+<preference name="target-device" value="universal" />
+<preference name="prerendered-icon" value="true" />
+<preference name="detect-data-types" value="true" />
+<preference name="exit-on-suspend" value="true" />
+<preference name="deployment-target" value="7.0" />
+<preference name="android-minSdkVersion" value="10" />
+<preference name="android-maxSdkVersion" value="15" />
+<preference name="android-targetSdkVersion" value="12" />
+<preference name="android-installLocation" value="auto" />
+<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+<preference name="splash-screen-duration" value="10000"/>
+
+<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+<gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.0.0" />
+
+</widget>
